@@ -15,4 +15,5 @@
     Private Sub btnFibonacci_Click(sender As Object, e As EventArgs) Handles btnFibonacci.Click
         txtRespuesta.Text = fibonacci(txtParametro.Text)
     End Sub
+    'Explicación de cómo funciona la Serie de Fibonacci: https://www.youtube.com/watch?v=0iYLgzr2tpg
 End Class
